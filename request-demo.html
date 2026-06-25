@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Demo | VitaSynora</title>
+  <meta name="description" content="Request a personalized demo for your farm, cooperative, or organization.">
+  <link rel="stylesheet" href="css/styles.css">
+   <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" style="background: var(--bg);">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px">
+          <path d="M20 2C20 2 5 10 5 22c0 9.4 6.7 16 15 16s15-6.6 15-16C35 10 20 2 20 2z" fill="#1a5c2a"/>
+          <circle cx="20" cy="26" r="2.2" fill="white"/>
+          <line x1="20" y1="23.8" x2="20" y2="17" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="20" y1="23.8" x2="13.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="20" y1="23.8" x2="26.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="20" cy="15.5" r="2.2" fill="white"/>
+          <circle cx="12" cy="19" r="2.2" fill="white"/>
+          <circle cx="28" cy="19" r="2.2" fill="white"/>
+          <line x1="20" y1="28.2" x2="20" y2="33" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        VitaSynora
+      </a>
+      <div class="nav-links">
+        <a href="problem.html">Problem</a>
+        <a href="solution.html">Solution</a>
+        <a href="technology.html">Technology</a>
+        <a href="market.html">Market</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="team.html">Team</a>
+        <a href="request-demo.html" class="btn btn-primary active">Request Demo</a>
+      </div>
+      <button class="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTACT SECTION -->
+  <section style="padding-top: calc(var(--nav-height) + 3rem); padding-bottom: 5rem; background: #eaf3eb; min-height: 100vh;">
+    <div class="container" style="max-width: 1100px;">
+
+      <!-- Page heading -->
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: clamp(1.8rem, 5vw, 2.8rem); color: var(--text);">Get in Touch with VitaSynora</h1>
+        <p style="color: var(--text-muted); margin-top: 0.75rem;">Request a personalized demo or ask us anything. We respond within 24 hours.</p>
+      </div>
+
+      <!-- Two-column layout -->
+      <div class="contact-layout">
+
+        <!-- LEFT: Contact info -->
+        <div>
+          <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.5rem; color: var(--text);">Get in Touch</h2>
+          <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">We're based in Enugu, Nigeria and available Monday–Friday, 8AM–6PM WAT. Our team typically responds within 24 hours.</p>
+
+          <!-- Contact items -->
+          <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2.5rem;">
+
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div style="width: 38px; height: 38px; border-radius: 50%; background: #d0e8d4; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem;">✉</div>
+              <div>
+                <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.2rem;">Business Email</p>
+                <a href="mailto:hello@vitasynora.online" style="color: var(--primary); font-weight: 600;">hello@vitasynora.online</a>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div style="width: 38px; height: 38px; border-radius: 50%; background: #d0e8d4; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem;">📞</div>
+              <div>
+                <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.2rem;">Phone Number</p>
+                <p style="font-weight: 600; color: var(--text);">+234 814 0117 682</p>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div style="width: 38px; height: 38px; border-radius: 50%; background: #d0e8d4; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem;">📍</div>
+              <div>
+                <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.2rem;">Office Address</p>
+                <p style="font-weight: 600; color: var(--text);">No 12 Obukpa Layout, Ibagwa Road<br>Enugu State, Nigeria</p>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div style="width: 38px; height: 38px; border-radius: 50%; background: #d0e8d4; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem;">🌐</div>
+              <div>
+                <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.2rem;">Website</p>
+                <a href="#" style="color: var(--primary); font-weight: 600;">vitasynora.online</a>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+              <div style="width: 38px; height: 38px; border-radius: 50%; background: #d0e8d4; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem;">🕐</div>
+              <div>
+                <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.2rem;">Business Hours</p>
+                <p style="font-weight: 600; color: var(--text);">Monday – Friday<br>8:00 AM – 6:00 PM WAT</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Follow us -->
+          <div>
+            <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.75rem;">Follow Us</p>
+            <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+              <a href="#" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 1rem; border: 1.5px solid var(--border); border-radius: 999px; font-size: 0.85rem; font-weight: 600; color: var(--text); background: #fff; transition: all 0.2s;">𝕏 Twitter</a>
+              <a href="#" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 1rem; border: 1.5px solid var(--border); border-radius: 999px; font-size: 0.85rem; font-weight: 600; color: var(--text); background: #fff; transition: all 0.2s;">in LinkedIn</a>
+              <a href="#" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 1rem; border: 1.5px solid var(--border); border-radius: 999px; font-size: 0.85rem; font-weight: 600; color: var(--text); background: #fff; transition: all 0.2s;">f Facebook</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Message form card -->
+        <div style="background: #fff; border-radius: 16px; padding: 2.5rem; box-shadow: 0 4px 24px rgba(26,92,42,0.08);">
+          <h2 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 0.4rem; color: var(--text);">Send Us a Message</h2>
+          <p style="color: var(--primary); font-size: 0.9rem; margin-bottom: 2rem;">Fill in the form below and we'll respond within 24 hours.</p>
+
+          <form id="contactForm">
+
+            <div class="name-grid" style="margin-bottom: 1rem;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label for="firstName" style="font-size: 0.85rem; color: var(--primary); font-weight: 600;">First Name <span style="color:var(--primary)">*</span></label>
+                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Adewale" required style="margin-top: 0.4rem;">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label for="lastName" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Last Name</label>
+                <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Okonkwo" style="margin-top: 0.4rem;">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email" style="font-size: 0.85rem; color: var(--primary); font-weight: 600;">Email Address <span style="color:var(--primary)">*</span></label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required style="margin-top: 0.4rem;">
+            </div>
+
+            <div class="form-group">
+              <label for="phone" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="+234 800 000 0000" style="margin-top: 0.4rem;">
+            </div>
+
+            <div class="form-group">
+              <label for="interest" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">I'm interested in</label>
+              <select id="interest" name="interest" class="form-control" style="margin-top: 0.4rem;">
+                <option value="">Select an option...</option>
+                <option>Crop Disease Detection</option>
+                <option>Precision Irrigation</option>
+                <option>Yield Prediction</option>
+                <option>Autonomous Field Monitoring</option>
+                <option>Market Intelligence</option>
+                <option>Cooperative Equipment Sharing</option>
+                <option>Full Platform Demo</option>
+                <option>Enterprise / Agribusiness Plan</option>
+                <option>Government &amp; NGO Programme</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" style="font-size: 0.85rem; color: var(--primary); font-weight: 600;">Message <span style="color:var(--primary)">*</span></label>
+              <textarea id="message" name="message" class="form-control" rows="4" placeholder="Tell us how we can help. We'll respond within 24 hours..." required style="margin-top: 0.4rem; resize: vertical;"></textarea>
+            </div>
+
+            <button type="submit" class="form-submit" style="width: 100%; padding: 1rem; font-size: 1rem; font-weight: 700; background: var(--primary); color: #fff; border: none; border-radius: 8px; cursor: pointer; transition: background 0.2s; margin-top: 0.5rem;">
+              Send Message →
+            </button>
+
+            <p style="text-align: center; font-size: 0.8rem; color: var(--text-muted); margin-top: 1rem;">We respond within 24 hours on business days. Your data is kept private and never sold.</p>
+
+          </form>
+
+          <!-- Toast notification (keep your existing toast div) -->
+        <div id="toast" class="toast"></div>
+
+          <!-- <div id="successMsg" style="display: none; text-align: center; padding: 3rem 0; color: var(--success);"> -->
+            <!-- Content injected by JS -->
+          <!-- </div> -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="nav-logo" style="margin-bottom: 1rem; color: #fff;">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px">
+              <path d="M20 2C20 2 5 10 5 22c0 9.4 6.7 16 15 16s15-6.6 15-16C35 10 20 2 20 2z" fill="#1a5c2a"/>
+              <circle cx="20" cy="26" r="2.2" fill="white"/>
+              <line x1="20" y1="23.8" x2="20" y2="17" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="20" y1="23.8" x2="13.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="20" y1="23.8" x2="26.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="20" cy="15.5" r="2.2" fill="white"/>
+              <circle cx="12" cy="19" r="2.2" fill="white"/>
+              <circle cx="28" cy="19" r="2.2" fill="white"/>
+              <line x1="20" y1="28.2" x2="20" y2="33" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            VitaSynora
+          </div>
+          <p class="text-muted">Feeding the future with intelligence.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+          </div>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1rem;">Platform</h4>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+            <li><a href="problem.html">Problem</a></li>
+            <li><a href="solution.html">Solution</a></li>
+            <li><a href="technology.html">Technology</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1rem;">Company</h4>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+            <li><a href="market.html">Market</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="team.html">Team</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1rem;">Contact</h4>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+            <li><a href="request-demo.html">Request Demo</a></li>
+            <li><a href="mailto:hello@vitasynora.ai">hello@vitasynora.ai</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VitaSynora Ltd. All rights reserved.</p>
+        <div style="display:flex; gap:1rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script>
+      (function () {
+        // Initialize EmailJS with your credentials
+        emailjs.init("VSW8_2tnPeTpuV8eV"); // Public Key from EmailJS
+      })();
+
+      window.onload = function() {
+           // Handle form submission
+      const form = document.getElementById("contactForm");
+      form.addEventListener("submit", function(event) {
+        event.preventDefault();
+          console.log("🔵 FORM SUBMITTED - Event triggered");
+
+          // Get form values
+          const templateParams = {
+
+           firstname: document.getElementById("firstname").value,
+           lastname: document.getElementById("lastname").value,
+           email: document.getElementById("email").value,
+           phone: document.getElementById("phone").value,
+           interest: document.getElementById("interest").value,
+           message: document.getElementById("message").value,
+          //  to_email: "hellovitasynora@gmail.com",
+          };
+        
+        emailjs.send(
+                "service_6060ltn",
+                "template_v1033co", // Template ID from EmailJS
+                templateParams,
+              )
+              .then(
+                function(response) {
+                  alert("email sent succesfully");
+                  console.log(
+                    "✓ EMAIL SENT SUCCESS!",
+                    response.status,
+                    response.text,
+                  ),
+                    function(error) {
+                  alert("failed to send email. check console for details");
+                  console.error("✗ EMAIL SEND FAILED:", error);
+                  console.error("Error Details:", {
+                    status: error.status,
+                    text: error.text,
+                    message: error.message,
+                  });
+                };
+              })});
+      };
+          
+    </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

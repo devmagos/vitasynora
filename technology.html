@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology | VitaSynora</title>
+  <meta name="description" content="Purpose-built AI for the world's most variable, unpredictable, and high-stakes environments.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px">
+          <path d="M20 2C20 2 5 10 5 22c0 9.4 6.7 16 15 16s15-6.6 15-16C35 10 20 2 20 2z" fill="#1a5c2a"/>
+          <circle cx="20" cy="26" r="2.2" fill="white"/>
+          <line x1="20" y1="23.8" x2="20" y2="17" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="20" y1="23.8" x2="13.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="20" y1="23.8" x2="26.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="20" cy="15.5" r="2.2" fill="white"/>
+          <circle cx="12" cy="19" r="2.2" fill="white"/>
+          <circle cx="28" cy="19" r="2.2" fill="white"/>
+          <line x1="20" y1="28.2" x2="20" y2="33" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        VitaSynora
+      </a>
+      <div class="nav-links">
+        <a href="problem.html">Problem</a>
+        <a href="solution.html">Solution</a>
+        <a href="technology.html">Technology</a>
+        <a href="market.html">Market</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="team.html">Team</a>
+        <a href="request-demo.html" class="btn btn-primary">Request Demo</a>
+      </div>
+      <button class="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" style="min-height: 60vh;">
+    <img src="images/tech-infrastructure.png" alt="Server room" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <h1>The Intelligence Engine.</h1>
+      <p>Purpose-built AI for the world's most variable, unpredictable, and high-stakes environments.</p>
+    </div>
+  </header>
+
+  <!-- WHY WE NEEDED TO BUILD FROM SCRATCH -->
+  <section class="section reveal">
+    <div class="container" style="max-width: 800px; text-align: center;">
+      <h2 style="margin-bottom: 1.5rem;">Why We Needed to Build from Scratch</h2>
+      <p style="font-size: 1.1rem; color: var(--text-muted);">Most agricultural AI tools retrofit consumer AI onto farming problems. VitaSynora was built ground-up for the unique requirements of smallholder agriculture in emerging markets — irregular sensor connectivity, low-bandwidth environments, massive variability in soil, weather, and crop types, and the absolute intolerance for false negatives that could destroy a family's income. Our architecture is different by design.</p>
+    </div>
+  </section>
+
+  <!-- OUR STACK: AWS + NVIDIA -->
+  <section class="section section-dark reveal">
+    <div class="container">
+      <div class="text-center" style="max-width: 800px; margin: 0 auto 3rem;">
+        <h2>Powered By</h2>
+        <p>Built on infrastructure designed to scale from 10 farms to 10 million.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="stack-card">
+          <h3><span class="stack-badge">AWS</span> How We Use AWS</h3>
+          <p>We use AWS to host backend APIs, store user and product data securely, run AI workflows, manage authentication, deploy scalable databases, serve frontend assets, monitor performance, and support future machine learning features through Amazon Bedrock and related AWS AI services.</p>
+        </div>
+        <div class="stack-card">
+          <h3><span class="stack-badge">NV</span> How We Use NVIDIA</h3>
+          <p>We plan to use NVIDIA technologies to accelerate AI model development, optimize inference, process visual/audio/data workloads, and improve real-time AI performance as the platform scales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE DATA FOUNDATION -->
+  <section class="section bg-light reveal">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 3rem;">The Data Foundation</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3 style="margin-bottom: 1.5rem; color: var(--primary);">What We Ingest</h3>
+          <ul style="list-style: disc; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted);">
+            <li>Multi-spectral satellite imagery (10m resolution, daily refresh)</li>
+            <li>IoT soil sensors: NPK, moisture, pH, temperature at 15cm intervals</li>
+            <li>Hyper-local weather stations: temperature, humidity, wind, rainfall</li>
+            <li>Drone visual feeds: RGB + Near-Infrared + Thermal imaging</li>
+            <li>Historical yield and input records (digitized and validated)</li>
+            <li>Market price data feeds from 40+ commodity markets</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom: 1.5rem; color: var(--primary);">What We Predict</h3>
+          <ul style="list-style: disc; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted);">
+            <li>Disease onset 14 days before visible symptoms</li>
+            <li>Yield per hectare with 90%+ confidence, 6-8 weeks pre-harvest</li>
+            <li>Optimal irrigation timing and volume, updated every 4 hours</li>
+            <li>Pest migration vectors and arrival probability</li>
+            <li>Optimal harvest window within ±2 days</li>
+            <li>Commodity price movements 4-6 weeks forward</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom: 1.5rem; color: var(--primary);">Our Model Stack</h3>
+          <ul style="list-style: disc; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted);">
+            <li>ResNet-50 CNNs for plant disease classification</li>
+            <li>LSTM time-series networks for yield prediction</li>
+            <li>Multi-sensor fusion algorithms for irrigation optimization</li>
+            <li>Transformer-based NLP models for market signal extraction</li>
+            <li>Anomaly detection models for field health surveillance</li>
+            <li>Federated learning protocols preserving farm data privacy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWS INFRASTRUCTURE -->
+  <section class="section reveal">
+    <div class="container" style="max-width: 900px;">
+      <h2 style="margin-bottom: 2rem;">How We Use Amazon Web Services</h2>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.5rem;">
+        <li><strong>Amazon ECS (Fargate):</strong> Containerized API services with zero-management scaling — from 10 to 10 million concurrent farm queries without manual intervention</li>
+        <li><strong>Amazon S3:</strong> Petabyte-scale storage for satellite imagery, drone footage, and historical sensor logs — with lifecycle policies optimized for cost</li>
+        <li><strong>Amazon RDS PostgreSQL:</strong> Managed relational database for farm profiles, field boundaries, yield records, and user data — multi-AZ for 99.99% uptime</li>
+        <li><strong>Amazon SageMaker:</strong> Managed ML training pipeline — weekly model retraining on incoming field data, automated A/B evaluation, and blue-green deployment</li>
+        <li><strong>Amazon Bedrock:</strong> Foundation model access for natural language advisory generation — turning AI predictions into plain-language farmer recommendations in any language</li>
+        <li><strong>AWS Lambda:</strong> Event-driven serverless functions for real-time disease alerts, irrigation triggers, and market price notifications — sub-second response time</li>
+        <li><strong>Amazon CloudFront:</strong> Global CDN ensuring the VitaSynora mobile app and dashboard load in under 2 seconds from Lagos to Jakarta</li>
+        <li><strong>Amazon CloudWatch:</strong> End-to-end observability — model accuracy drift detection, API latency monitoring, and automated incident response</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- NVIDIA ACCELERATION -->
+  <section class="section bg-light reveal">
+    <div class="container" style="max-width: 900px;">
+      <h2 style="margin-bottom: 2rem;">How We Use NVIDIA Technology</h2>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.5rem;">
+        <li><strong>CUDA GPU Computing:</strong> All deep learning training and batch inference runs on NVIDIA GPU clusters — enabling training runs that would take weeks on CPU to complete in hours. Our disease detection model processes 50,000 images per hour on a single A100 GPU.</li>
+        <li><strong>TensorRT Inference Optimization:</strong> Production inference is optimized with TensorRT — reducing model size by 4x and inference latency by 3x vs standard PyTorch deployment. This enables real-time disease detection on satellite tiles as they stream in.</li>
+        <li><strong>NVIDIA Jetson Edge Modules:</strong> Jetson Nano and Orin modules deployed inside field-operated drones enable on-device inference — detecting disease from 50-meter altitude without sending raw imagery to the cloud. Zero latency. Zero connectivity required.</li>
+        <li><strong>Tритоn Inference Server:</strong> Multi-model serving in production — simultaneously running crop disease classification, yield prediction, irrigation optimization, and market intelligence models with hardware-level resource sharing and priority queuing.</li>
+        <li><strong>RAPIDS cuDF & cuML:</strong> GPU-accelerated data preprocessing transforms satellite imagery analysis from a 4-hour batch job to a 12-minute pipeline. This means farmers get daily field assessments, not weekly ones.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PRIVACY & SECURITY -->
+  <section class="section section-dark reveal">
+    <div class="container" style="max-width: 800px; text-align: center;">
+      <h2 style="margin-bottom: 1.5rem;">Privacy & Security</h2>
+      <p style="margin-bottom: 2rem; opacity: 0.9;">Farm data is as sensitive as financial data. VitaSynora is built with data sovereignty as a first principle.</p>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem; text-align: left; margin-bottom: 3rem;">
+        <li style="display: flex; gap: 0.5rem;"><span style="color:var(--primary-light)">✓</span> Federated model training: Models improve without raw farm data leaving the device</li>
+        <li style="display: flex; gap: 0.5rem;"><span style="color:var(--primary-light)">✓</span> End-to-end encryption: All sensor data in transit and at rest</li>
+        <li style="display: flex; gap: 0.5rem;"><span style="color:var(--primary-light)">✓</span> Farmer ownership: Every data record is owned by the farmer who generated it</li>
+        <li style="display: flex; gap: 0.5rem;"><span style="color:var(--primary-light)">✓</span> GDPR-aligned architecture: Full deletion rights, data minimization, audit trails</li>
+        <li style="display: flex; gap: 0.5rem;"><span style="color:var(--primary-light)">✓</span> No third-party data sharing without explicit consent</li>
+      </ul>
+      <a href="market.html" class="btn btn-primary">See how this technology creates market opportunity →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="nav-logo" style="margin-bottom: 1rem; color: #fff;">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px">
+              <path d="M20 2C20 2 5 10 5 22c0 9.4 6.7 16 15 16s15-6.6 15-16C35 10 20 2 20 2z" fill="#1a5c2a"/>
+              <circle cx="20" cy="26" r="2.2" fill="white"/>
+              <line x1="20" y1="23.8" x2="20" y2="17" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="20" y1="23.8" x2="13.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="20" y1="23.8" x2="26.5" y2="20" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="20" cy="15.5" r="2.2" fill="white"/>
+              <circle cx="12" cy="19" r="2.2" fill="white"/>
+              <circle cx="28" cy="19" r="2.2" fill="white"/>
+              <line x1="20" y1="28.2" x2="20" y2="33" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            VitaSynora
+          </div>
+          <p class="text-muted">Feeding the future with intelligence.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+          </div>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1rem;">Platform</h4>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+            <li><a href="problem.html">Problem</a></li>
+            <li><a href="solution.html">Solution</a></li>
+            <li><a href="technology.html">Technology</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1rem;">Company</h4>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+            <li><a href="market.html">Market</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="team.html">Team</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1rem;">Contact</h4>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+            <li><a href="request-demo.html">Request Demo</a></li>
+            <li><a href="mailto:hello@vitasynora.ai">hello@vitasynora.ai</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VitaSynora Ltd. All rights reserved.</p>
+        <div style="display:flex; gap:1rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
