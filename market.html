@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Market | VitaSynora</title>
   <meta name="description" content="570 million farms. 84% with no access to modern agricultural technology. This is an existential opportunity.">
   <link rel="stylesheet" href="css/styles.css">
@@ -42,7 +42,7 @@
   </nav>
 
   <!-- HERO -->
-  <header class="hero" style="min-height: 60vh;">
+  <header class="hero hero--page">
     <img src="images/market-overview.png" alt="Aerial view of farmland" class="hero-bg">
     <div class="hero-overlay"></div>
     <div class="hero-content reveal">
@@ -141,26 +141,26 @@
   <section class="section bg-light reveal">
     <div class="container" style="max-width: 900px;">
       <h2 style="text-align: center; margin-bottom: 3rem;">Revenue Model</h2>
-      <div class="card" style="padding: 0; overflow: hidden;">
-        <div style="display: grid; grid-template-columns: 1fr 2fr; border-bottom: 1px solid var(--border);">
-          <div style="padding: 1.5rem; background: var(--bg); font-weight: bold;">Individual Farmer</div>
-          <div style="padding: 1.5rem;">$3-8/month per farm (SMS/USSD for basic tier, app for premium)</div>
+      <div class="card revenue-table">
+        <div class="revenue-row">
+          <div class="revenue-label">Individual Farmer</div>
+          <div class="revenue-value">$3-8/month per farm (SMS/USSD for basic tier, app for premium)</div>
         </div>
-        <div style="display: grid; grid-template-columns: 1fr 2fr; border-bottom: 1px solid var(--border);">
-          <div style="padding: 1.5rem; background: var(--bg); font-weight: bold;">Cooperative</div>
-          <div style="padding: 1.5rem;">$1-3/farm/month for groups of 20+ (bulk discount + management tools)</div>
+        <div class="revenue-row">
+          <div class="revenue-label">Cooperative</div>
+          <div class="revenue-value">$1-3/farm/month for groups of 20+ (bulk discount + management tools)</div>
         </div>
-        <div style="display: grid; grid-template-columns: 1fr 2fr; border-bottom: 1px solid var(--border);">
-          <div style="padding: 1.5rem; background: var(--bg); font-weight: bold;">Agribusiness</div>
-          <div style="padding: 1.5rem;">$500-5,000/month (enterprise plan, full API, integrations)</div>
+        <div class="revenue-row">
+          <div class="revenue-label">Agribusiness</div>
+          <div class="revenue-value">$500-5,000/month (enterprise plan, full API, integrations)</div>
         </div>
-        <div style="display: grid; grid-template-columns: 1fr 2fr; border-bottom: 1px solid var(--border);">
-          <div style="padding: 1.5rem; background: var(--bg); font-weight: bold;">Government/NGO</div>
-          <div style="padding: 1.5rem;">Custom contract ($50K-$2M/year based on reach)</div>
+        <div class="revenue-row">
+          <div class="revenue-label">Government/NGO</div>
+          <div class="revenue-value">Custom contract ($50K-$2M/year based on reach)</div>
         </div>
-        <div style="display: grid; grid-template-columns: 1fr 2fr;">
-          <div style="padding: 1.5rem; background: var(--bg); font-weight: bold;">AI Advisory Credits</div>
-          <div style="padding: 1.5rem;">Pay-per-use for specialized analysis (disease outbreak mapping, regional yield forecasting)</div>
+        <div class="revenue-row">
+          <div class="revenue-label">AI Advisory Credits</div>
+          <div class="revenue-value">Pay-per-use for specialized analysis (disease outbreak mapping, regional yield forecasting)</div>
         </div>
       </div>
     </div>

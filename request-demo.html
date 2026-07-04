@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Request Demo | VitaSynora</title>
   <meta name="description" content="Request a personalized demo for your farm, cooperative, or organization.">
   <link rel="stylesheet" href="css/styles.css">
@@ -14,7 +14,7 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar scrolled" style="background: var(--bg);">
+  <nav class="navbar scrolled navbar-solid">
     <div class="nav-container">
       <a href="index.html" class="nav-logo">
         <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px">
@@ -46,7 +46,7 @@
   </nav>
 
   <!-- CONTACT SECTION -->
-  <section style="padding-top: calc(var(--nav-height) + 3rem); padding-bottom: 5rem; background: #eaf3eb; min-height: 100vh;">
+  <section class="contact-page">
     <div class="container" style="max-width: 1100px;">
 
       <!-- Page heading -->
@@ -120,7 +120,7 @@
         </div>
 
         <!-- RIGHT: Message form card -->
-        <div style="background: #fff; border-radius: 16px; padding: 2.5rem; box-shadow: 0 4px 24px rgba(26,92,42,0.08);">
+        <div class="contact-form-card">
           <h2 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 0.4rem; color: var(--text);">Send Us a Message</h2>
           <p style="color: var(--primary); font-size: 0.9rem; margin-bottom: 2rem;">Fill in the form below and we'll respond within 24 hours.</p>
 
@@ -132,7 +132,7 @@
                 <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Adewale" required style="margin-top: 0.4rem;">
               </div>
               <div class="form-group" style="margin-bottom: 0;">
-                <label for="lastName" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Last Name</label>
+                <label for="lastname" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Last Name</label>
                 <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Okonkwo" style="margin-top: 0.4rem;">
               </div>
             </div>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Team | VitaSynora</title>
   <meta name="description" content="We are agricultural scientists, machine learning engineers, and data architects united by a single conviction.">
   <link rel="stylesheet" href="css/styles.css">
@@ -42,8 +42,8 @@
   </nav>
 
   <!-- HERO -->
-  <header class="hero" style="min-height: 50vh; background-color: var(--bg-dark);">
-    <div class="hero-content reveal" style="padding-top: 100px;">
+  <header class="hero hero--short" style="background-color: var(--bg-dark);">
+    <div class="hero-content reveal">
       <h1>The People Behind VitaSynora.</h1>
       <p>We are agricultural scientists, machine learning engineers, and data architects united by a single conviction: the world cannot afford to feed 10 billion people the way we feed 8 billion.</p>
     </div>
@@ -54,9 +54,9 @@
     <div class="container" style="max-width: 1000px;">
       
       <div class="card" style="display: flex; flex-direction: column; gap: 2rem; margin-bottom: 2rem; background: var(--bg-light);">
-        <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
-          <img src="images/ceo-portrait.png" alt="Dr. Amara Osei" style="width: 250px; height: 250px; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
-          <div style="flex: 1; min-width: 300px;">
+        <div class="team-profile-row">
+          <img src="images/ceo-portrait.png" alt="Dr. Amara Osei" class="team-photo--lg">
+          <div class="team-profile-body">
             <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">Umeh kosisochukwu </h2>
             <p class="text-primary font-bold" style="margin-bottom: 1.5rem; font-size: 1.1rem;">Founder & CEO</p>
             <p style="margin-bottom: 1rem; color: var(--text-muted);">Umeh spent 15 years at the FAO studying smallholder agriculture in West Africa before founding VitaSynora. His doctoral research at Wageningen University focused on the economics of technology adoption in subsistence farming — the same problem VitaSynora is built to solve. He has advised the governments of Ghana, Rwanda, and Burkina Faso on food security policy and has published 23 peer-reviewed papers on precision agriculture in developing markets.</p>
@@ -71,9 +71,9 @@
       </div>
 
       <div class="card" style="display: flex; flex-direction: column; gap: 2rem; background: var(--bg-light);">
-        <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
-          <img src="images/cto-portrait.png" alt="Kofi Mensah" style="width: 250px; height: 250px; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
-          <div style="flex: 1; min-width: 300px;">
+        <div class="team-profile-row">
+          <img src="images/cto-portrait.png" alt="Kofi Mensah" class="team-photo--lg">
+          <div class="team-profile-body">
             <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">Kofi Mensah</h2>
             <p class="text-primary font-bold" style="margin-bottom: 1.5rem; font-size: 1.1rem;">Chief Technology Officer</p>
             <p style="margin-bottom: 1rem; color: var(--text-muted);">Kofi led machine learning infrastructure teams at Google Brain for 6 years before returning to West Africa to work on problems closer to his childhood experience of food insecurity in Accra. At Google, he specialized in deploying large-scale models to edge devices in low-connectivity environments — a challenge he now applies to VitaSynora's offline-first architecture.</p>
